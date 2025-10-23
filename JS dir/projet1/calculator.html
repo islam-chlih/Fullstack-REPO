@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced Calculator</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background: #f4f4f4;
+    }
+
+    #wrapper {
+      padding: 20px;
+    }
+
+    .calculator {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+      width: 260px;
+    }
+
+    .display {
+      width: 100%;
+      height: 50px;
+      margin-bottom: 10px;
+      text-align: right;
+      padding: 5px 10px;
+      font-size: 1.5rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      background-color: #eee;
+      overflow-x: auto;
+    }
+
+    .buttons {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 5px;
+    }
+
+    button {
+      padding: 15px;
+      font-size: 1.2rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      background-color: #eee;
+    }
+
+    button:hover {
+      background-color: #ddd;
+    }
+
+    .equal {
+      background-color: #4CAF50;
+      color: white;
+    }
+
+    .cmd {
+      background-color: #f44336;
+      color: white;
+    }
+
+    ul#history {
+      margin-top: 15px;
+      max-height: 120px;
+      overflow-y: auto;
+      padding-left: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div id="wrapper">
+    <div class="calculator">
+      <div class="display" id="display">0</div>
+      <div class="buttons" id="keys">
+        <!-- Digits -->
+        <button data-type="digit" data-value="7">7</button>
+        <button data-type="digit" data-value="8">8</button>
+        <button data-type="digit" data-value="9">9</button>
+        <button data-type="op" data-value="/">÷</button>
+
+        <button data-type="digit" data-value="4">4</button>
+        <button data-type="digit" data-value="5">5</button>
+        <button data-type="digit" data-value="6">6</button>
+        <button data-type="op" data-value="*">×</button>
+
+        <button data-type="digit" data-value="1">1</button>
+        <button data-type="digit" data-value="2">2</button>
+        <button data-type="digit" data-value="3">3</button>
+        <button data-type="op" data-value="-">−</button>
+
+        <button data-type="digit" data-value="0">0</button>
+        <button data-type="digit" data-value=".">.</button>
+        <button data-type="cmd" data-value="AC" class="cmd">AC</button>
+        <button data-type="op" data-value="+">+</button>
+
+        <button data-type="cmd" data-value="CE" class="cmd">CE</button>
+        <button data-type="cmd" data-value="neg" class="cmd">±</button>
+        <button data-type="cmd" data-value="pct" class="cmd">%</button>
+        <button data-type="eq" class="equal">=</button>
+      </div>
+      <h3>History</h3>
+      <ul id="history">
+        
+      </ul>
+    </div>
+  </div>
+
+  <script src="calculator.js"></script>
+</body>
+</html>

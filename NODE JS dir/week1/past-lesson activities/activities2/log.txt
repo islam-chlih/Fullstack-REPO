@@ -1,0 +1,9 @@
+Date : 21/10/2025 15:22:13
+Nombre de fichiers trouvés : 2
+
+requéte recue : /test1
+requéte recue : /favicon.ico
+requéte recue : /test2
+requéte recue : /favicon.ico
+requéte recue : /bonjour
+requéte recue : /favicon.ico
