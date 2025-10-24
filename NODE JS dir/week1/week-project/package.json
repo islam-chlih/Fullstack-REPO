@@ -1,0 +1,24 @@
+{
+  "name": "smartinventory",
+  "version": "1.0.0",
+  "description": "A smart inventory system API built with Node.js without frameworks.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js"
+  },
+  "keywords": [
+    "node",
+    "api",
+    "inventory",
+    "no-framework"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "engines": {
+    "node": ">=18 <23"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3"
+  }
+}

@@ -1,0 +1,322 @@
+[
+  {
+    "id": 1,
+    "sku": "SKU-001",
+    "name": "Marteau en acier",
+    "category": "tools",
+    "price": 25.9,
+    "inStock": true
+  },
+  {
+    "id": 2,
+    "sku": "SKU-002",
+    "name": "Tournevis cruciforme",
+    "category": "tools",
+    "price": 9.5,
+    "inStock": true
+  },
+  {
+    "id": 3,
+    "sku": "SKU-003",
+    "name": "Clé plate 12mm",
+    "category": "tools",
+    "price": 5.8,
+    "inStock": false
+  },
+  {
+    "id": 4,
+    "sku": "SKU-004",
+    "name": "Pince universelle",
+    "category": "tools",
+    "price": 12.3,
+    "inStock": true
+  },
+  {
+    "id": 5,
+    "sku": "SKU-005",
+    "name": "Niveau à bulle",
+    "category": "tools",
+    "price": 18.75,
+    "inStock": false
+  },
+  {
+    "id": 6,
+    "sku": "SKU-006",
+    "name": "Scie à métaux",
+    "category": "tools",
+    "price": 22.4,
+    "inStock": true
+  },
+  {
+    "id": 7,
+    "sku": "SKU-007",
+    "name": "Clé Allen 5mm",
+    "category": "tools",
+    "price": 4.2,
+    "inStock": true
+  },
+  {
+    "id": 8,
+    "sku": "SKU-008",
+    "name": "Marteau de charpentier",
+    "category": "tools",
+    "price": 28.9,
+    "inStock": false
+  },
+  {
+    "id": 9,
+    "sku": "SKU-009",
+    "name": "Tournevis plat",
+    "category": "tools",
+    "price": 7.15,
+    "inStock": true
+  },
+  {
+    "id": 10,
+    "sku": "SKU-010",
+    "name": "Pince coupante",
+    "category": "tools",
+    "price": 14.6,
+    "inStock": true
+  },
+  {
+    "id": 11,
+    "sku": "SKU-011",
+    "name": "Clé à pipe 15mm",
+    "category": "tools",
+    "price": 9.9,
+    "inStock": false
+  },
+  {
+    "id": 12,
+    "sku": "SKU-012",
+    "name": "Mètre ruban 5m",
+    "category": "tools",
+    "price": 6.5,
+    "inStock": true
+  },
+  {
+    "id": 13,
+    "sku": "SKU-013",
+    "name": "Perceuse électrique",
+    "category": "tools",
+    "price": 45.0,
+    "inStock": true
+  },
+  {
+    "id": 14,
+    "sku": "SKU-014",
+    "name": "Forets HSS 10mm",
+    "category": "tools",
+    "price": 3.8,
+    "inStock": false
+  },
+  {
+    "id": 15,
+    "sku": "SKU-015",
+    "name": "Étau de table",
+    "category": "tools",
+    "price": 35.2,
+    "inStock": true
+  },
+  {
+    "id": 16,
+    "sku": "SKU-016",
+    "name": "Clé dynamométrique",
+    "category": "tools",
+    "price": 29.9,
+    "inStock": true
+  },
+  {
+    "id": 17,
+    "sku": "SKU-017",
+    "name": "Marteau piqueur",
+    "category": "tools",
+    "price": 55.0,
+    "inStock": false
+  },
+  {
+    "id": 18,
+    "sku": "SKU-018",
+    "name": "Tournevis électrique",
+    "category": "tools",
+    "price": 19.5,
+    "inStock": true
+  },
+  {
+    "id": 19,
+    "sku": "SKU-019",
+    "name": "Pince multiprise",
+    "category": "tools",
+    "price": 11.4,
+    "inStock": true
+  },
+  {
+    "id": 20,
+    "sku": "SKU-020",
+    "name": "Clé de serrage rapide",
+    "category": "tools",
+    "price": 8.7,
+    "inStock": false
+  },
+  {
+    "id": 21,
+    "sku": "SKU-021",
+    "name": "Scie circulaire",
+    "category": "tools",
+    "price": 42.3,
+    "inStock": true
+  },
+  {
+    "id": 22,
+    "sku": "SKU-022",
+    "name": "Niveau laser",
+    "category": "tools",
+    "price": 65.0,
+    "inStock": true
+  },
+  {
+    "id": 23,
+    "sku": "SKU-023",
+    "name": "Marteau perforateur",
+    "category": "tools",
+    "price": 78.5,
+    "inStock": false
+  },
+  {
+    "id": 24,
+    "sku": "SKU-024",
+    "name": "Tournevis précision",
+    "category": "tools",
+    "price": 5.2,
+    "inStock": true
+  },
+  {
+    "id": 25,
+    "sku": "SKU-025",
+    "name": "Pince à dénuder",
+    "category": "tools",
+    "price": 13.9,
+    "inStock": true
+  },
+  {
+    "id": 26,
+    "sku": "SKU-026",
+    "name": "Clé à molette",
+    "category": "tools",
+    "price": 16.4,
+    "inStock": false
+  },
+  {
+    "id": 27,
+    "sku": "SKU-027",
+    "name": "Mètre pliant",
+    "category": "tools",
+    "price": 7.8,
+    "inStock": true
+  },
+  {
+    "id": 28,
+    "sku": "SKU-028",
+    "name": "Perceuse à percussion",
+    "category": "tools",
+    "price": 52.0,
+    "inStock": true
+  },
+  {
+    "id": 29,
+    "sku": "SKU-029",
+    "name": "Forets carbure",
+    "category": "tools",
+    "price": 4.5,
+    "inStock": false
+  },
+  {
+    "id": 30,
+    "sku": "SKU-030",
+    "name": "Étau d'établi",
+    "category": "tools",
+    "price": 48.9,
+    "inStock": true
+  },
+  {
+    "id": 31,
+    "sku": "SKU-031",
+    "name": "Clé de choc pneumatique",
+    "category": "tools",
+    "price": 89.0,
+    "inStock": true
+  },
+  {
+    "id": 32,
+    "sku": "SKU-032",
+    "name": "Marteau à panne fendue",
+    "category": "tools",
+    "price": 24.6,
+    "inStock": false
+  },
+  {
+    "id": 33,
+    "sku": "SKU-033",
+    "name": "Tournevis magnétique",
+    "category": "tools",
+    "price": 10.3,
+    "inStock": true
+  },
+  {
+    "id": 34,
+    "sku": "SKU-034",
+    "name": "Pince à sertir",
+    "category": "tools",
+    "price": 17.2,
+    "inStock": true
+  },
+  {
+    "id": 35,
+    "sku": "SKU-035",
+    "name": "Clé polygonale",
+    "category": "tools",
+    "price": 12.8,
+    "inStock": false
+  },
+  {
+    "id": 36,
+    "sku": "SKU-036",
+    "name": "Scie sauteuse",
+    "category": "tools",
+    "price": 38.7,
+    "inStock": true
+  },
+  {
+    "id": 37,
+    "sku": "SKU-037",
+    "name": "Niveau numérique",
+    "category": "tools",
+    "price": 72.5,
+    "inStock": true
+  },
+  {
+    "id": 38,
+    "sku": "SKU-038",
+    "name": "Marteau de maçon",
+    "category": "tools",
+    "price": 26.4,
+    "inStock": false
+  },
+  {
+    "id": 39,
+    "sku": "SKU-039",
+    "name": "Tournevis isolé",
+    "category": "tools",
+    "price": 8.9,
+    "inStock": true
+  },
+  {
+    "id": 40,
+    "sku": "SKU-040",
+    "name": "Pince à riveter",
+    "category": "tools",
+    "price": 15.6,
+    "inStock": true
+  }
+]

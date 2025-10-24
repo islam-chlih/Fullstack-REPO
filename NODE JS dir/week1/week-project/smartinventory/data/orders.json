@@ -1,0 +1,117 @@
+[
+  {
+    "orderId": "ORD-001",
+    "customer": {
+      "name": "Jean Dupont",
+      "email": "jean.dupont@gmail.com",
+      "address": "123 Rue de la Paix, Paris, France"
+    },
+    "items": [
+      {
+        "productId": 1,
+        "quantity": 2,
+        "price": 25.90
+      },
+      {
+        "productId": 2,
+        "quantity": 1,
+        "price": 9.50
+      }
+    ],
+    "total": 61.30,
+    "status": "pending",
+    "orderDate": "2023-10-01"
+  },
+  {
+    "orderId": "ORD-002",
+    "customer": {
+      "name": "Marie Curie",
+      "email": "marie.curie@gmail.com",
+      "address": "456 Avenue des Sciences, Lyon, France"
+    },
+    "items": [
+      {
+        "productId": 3,
+        "quantity": 3,
+        "price": 5.80
+      },
+      {
+        "productId": 4,
+        "quantity": 1,
+        "price": 12.30
+      }
+    ],
+    "total": 30.10,
+    "status": "shipped",
+    "orderDate": "2023-10-02"
+  },
+  {
+    "orderId": "ORD-003",
+    "customer": {
+      "name": "Pierre Martin",
+      "email": "pierre.martin@email.com",
+      "address": "789 Boulevard Voltaire, Marseille, France"
+    },
+    "items": [
+      {
+        "productId": 5,
+        "quantity": 1,
+        "price": 18.75
+      },
+      {
+        "productId": 6,
+        "quantity": 2,
+        "price": 22.40
+      }
+    ],
+    "total": 63.55,
+    "status": "delivered",
+    "orderDate": "2023-10-03"
+  },
+  {
+    "orderId": "ORD-004",
+    "customer": {
+      "name": "Sophie Bernard",
+      "email": "sophie.bernard@email.com",
+      "address": "101 Place Bellecour, Lyon, France"
+    },
+    "items": [
+      {
+        "productId": 7,
+        "quantity": 5,
+        "price": 4.20
+      },
+      {
+        "productId": 8,
+        "quantity": 1,
+        "price": 28.90
+      }
+    ],
+    "total": 49.90,
+    "status": "pending",
+    "orderDate": "2023-10-04"
+  },
+  {
+    "orderId": "ORD-005",
+    "customer": {
+      "name": "Luc Dubois",
+      "email": "luc.dubois@email.com",
+      "address": "202 Rue Saint-Honoré, Paris, France"
+    },
+    "items": [
+      {
+        "productId": 9,
+        "quantity": 2,
+        "price": 7.15
+      },
+      {
+        "productId": 10,
+        "quantity": 1,
+        "price": 14.60
+      }
+    ],
+    "total": 28.90,
+    "status": "shipped",
+    "orderDate": "2023-10-05"
+  }
+]
